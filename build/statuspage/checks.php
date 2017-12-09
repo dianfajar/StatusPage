@@ -13,6 +13,6 @@ $statusPage = new statusPage();
 
 $tableHeaders = $statusPage->getTableHeaders();
 
-$checks = $statusPage->getChecks(( isset($_GET['action']) ? $_GET['action'] : null ));
+$checks = $statusPage->getChecks($_GET['action']);
 
 echo $statusPage->padIt(array('headers' => $tableHeaders, 'checks' => $checks));

@@ -2,7 +2,7 @@
 namespace NerdBaggy\StatusPage;
 
 //Uptime Robot API Key
-define('apiKey', 'u331164-dde2d4b06be7a7d03f7d579e');
+define('apiKey', '');
 
 //Uptime percentage for following days
 define('historyDay', '1-7-30-360');
@@ -15,10 +15,6 @@ define('cacheTime', 300);
 
 //Only show these monitors
 define('includedMonitors', '');
-
-
-//Show monitors matching search
-define('searchMonitors', '');
 
 //Hide certain monitors
 define('excludedMonitors', serialize(array()));
